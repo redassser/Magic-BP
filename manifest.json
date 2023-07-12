@@ -1,0 +1,18 @@
+{
+     "format_version": 2, 
+     "header": { 
+          "name": "Magic",
+          "description": "Cast spells. Made by Renegades. BP",
+          "uuid": "16f23ac2-7b7e-4bf7-b74f-2a708e8c7da7", 
+          "version": [ 1, 0, 0 ], 
+          "min_engine_version": [ 1, 20, 0 ] 
+     }, 
+     "modules": [ 
+          { 
+               "description": "Magic BP", 
+               "type": "data", 
+               "uuid": "fccd7308-3b05-47de-8abe-150b28fcaf79", 
+               "version": [ 1, 1, 0 ] 
+          } 
+     ]
+} 

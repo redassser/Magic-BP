@@ -1,0 +1,16 @@
+{
+    "format_version": "1.20.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "magic:crystal_ball"
+        },
+        "components": {
+            "minecraft:crafting_table": {
+                "table_name": "magic:ball",
+                "grid_size": 2,
+                "custom_description": "magic:crystal_ball_ui",
+                "crafting_tags": ["magic"]
+            }
+        }
+    }
+}
