@@ -5,6 +5,26 @@
             "identifier": "magic:crystal_ball"
         },
         "components": {
+            "minecraft:selection_box": {
+                "origin": [-3.6,0,-3.6],
+                "size": [8,9,8]
+            },
+            "minecraft:collision_box": {
+                "origin": [-3.6,0,-3.6],
+                "size": [8,9,8]
+            },
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 1
+            },
+            "minecraft:geometry": "geometry.crystal_ball",
+            "minecraft:material_instances": {
+                "*": {
+                    "texture": "crystal_ball.png",
+                    "ambient_occlusion": false,
+                    "face_dimming": true,
+                    "render_method": "alpha_test"
+                }
+            },
             "minecraft:crafting_table": {
                 "table_name": "magic:ball",
                 "grid_size": 2,
