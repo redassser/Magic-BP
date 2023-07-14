@@ -6,6 +6,7 @@
             "category": "items"
         },
         "components": {
+            "tag:magic:wand": {},
             "minecraft:creative_category": {
 				"parent": "itemGroup.name.sword"
 			},
